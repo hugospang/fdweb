@@ -1,11 +1,15 @@
 body {
 	font-family: Arial, sans-serif;
-	background-color: #f4f4f4;
+	background-color: #00ffe1;
 	margin: 0;
 	padding: 0;
 }
 
-h1,
+h1 {
+	color:#333;
+	font-size: 5rem;
+	line-height: 10rem;
+}
 h2,
 h3 {
 	color: #333;
