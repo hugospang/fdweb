@@ -1,0 +1,35 @@
+.flex-container {
+  display: flex;
+
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+}
+
+.flex-container > div {
+  background: #6a30f2;
+  border: 3px solid #ee06a8;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.item1 {
+  /* flex:0 1 auto; */
+  align-self: flex-start;
+}
+
+.item2 {
+  /* flex:0 1 auto; */
+  align-self: flex-start;
+}
+
+.item3 {
+  /* flex:0 1 auto; */
+  align-self: flex-start;
+}
+
+div:hover {
+  background-color: #00ffea;
+  color: white;
+}
