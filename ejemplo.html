@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo Position</title>
+    <style>
+      .caja {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+      .imagen {
+        width: 45%;
+        height: auto;
+      }
+      .imagen {
+        float: left;
+        margin-right: 10px;
+      }
+      .menu {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+        padding: 10px;
+      }
+      .menu a {
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="menu">
+      <a href="#">Inicio</a>
+      <a href="#">Servicios</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <div class="caja"></div>
+    <div>
+      <img
+        src="https://inaturalist-open-data.s3.amazonaws.com/photos/327447255/medium.jpeg"
+        class="imagen"
+        id="linx"
+      />
+      <p>Este texto fluirá alrededor de la imagen.</p>
+    </div>
+  </body>
+</html>
