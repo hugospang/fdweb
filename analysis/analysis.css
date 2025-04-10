@@ -60,16 +60,33 @@ header p {
   object-fit: contain;
 }
 
+.web-card .img2 {
+  max-width: 100%;
+  max-height: 16rem; /* Antes: 32rem */
+  width: auto;
+  height: auto;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+  object-fit: contain;
+}
+
 .web-card h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
   color: #222;
 }
 
+.web-card .text1 {
+  display: flex;
+  text-align: justify;
+}
+
 .web-card p {
   font-size: 1rem;
   margin-bottom: 15px;
   color: #555;
+  text-align: justify;
 }
 
 .web-card a {
@@ -93,4 +110,23 @@ footer {
   text-align: center;
   color: #999;
   font-size: 0.9rem;
+}
+
+.flex-container {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #bbdefb;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+}
+
+.flex-container > div {
+  background: #ffecb3;
+  border: 3px solid #ffcc80;
+  border-radius: 5px;
+  padding: 8px;
 }
